@@ -31,7 +31,7 @@ export default function Word_() {
   };
 
   useEffect(() => {
-    getWord("pull", "en");
+    getWord("dictionary", "en");
     // eslint-disable-next-line
   }, []);
 
